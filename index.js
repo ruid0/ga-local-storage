@@ -10,15 +10,6 @@
  *              Fontaine Shu <fontaine@sweetlabs.com>, SweetLabs, Inc.
  * see this repository : https://github.com/blakemachado/Pokki
  *
- * Example usage:
- *
- * - Place these two lines with your values in a script tag in the head of index.html
- *   ga_storage._setAccount('--GA-ACCOUNT-ID--');
- *   ga_storage._trackPageview('/index.html');
- *
- * - Call these whenever you want to track a page view or a custom event
- *   ga_storage._trackPageview('/index', 'optional title');
- *   ga_storage._trackEvent('category', 'action', 'label', 'value');
  */
 
 const IS_DEBUG = false;
